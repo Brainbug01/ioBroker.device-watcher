@@ -191,12 +191,12 @@ This adapter would not have been possible without the great work of Christian Be
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 2.15.18 (2026-11-16)
+- (softwarecrash) Fix false WLED offline detection by applying the configured timeout only while the connection state is false.
 - (copilot) Adapter requires node.js >= 22.19.0 now
 - (arteck) Dependencies have been updated
 - (arteck) fix message ([main] Pending rescan detected – Schleife wird wiederholt)
-- (Brainbug01) XSense: battery is shown in percent again instead of "error", lowbat detection fixed
+- (GermanBluefox) (fix) Matter: TypeError 'endsWith' when no PowerSource battery state exists; detect BATTERY/LOWBAT under any endpoint (#733)
 
 ### 2.15.17 (2026-06-19)
 - (mcm1957) Release of 2.15.16 has failed and has been restarted
@@ -211,10 +211,6 @@ This adapter would not have been possible without the great work of Christian Be
 
 ### 2.15.13 (2026-05-13)
 * (arteck) fix new devices
-
-### 2.15.12 (2026-05-06)
-* (arteck) fix hueExtended battery check
-
 
 [Older changelogs can be found there](CHANGELOG_OLD.md)
 
